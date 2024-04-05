@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/cera-round-pro-demo');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #222;
+  font-family: 'Cera Round Pro DEMO', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.logo{
+  width: 100px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 1rem;
+}
+
+main a{
+  background-color: #111;
+  width: 300px;
+  border-radius: 10px 0 10px 0;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border: 2px solid #FFF;
+  transition: .3s;
+}
+
+main a:hover{
+  background-color: #FFF;
+  color: #111;
+  font-weight: 700;
+}
+
+footer{
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
