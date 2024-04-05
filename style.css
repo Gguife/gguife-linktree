@@ -47,17 +47,3 @@ main a:hover{
   color: #111;
   font-weight: 700;
 }
-
-footer{
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: .8rem;
-}
-
-@media (max-width: 500px) {
-  footer{
-    display: none;
-  }
-}
