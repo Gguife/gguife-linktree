@@ -45,7 +45,7 @@ main a{
   align-items: center;
   justify-content: center;
   gap: .5rem;
-  border: 2px solid #FFF;
+  border: 2px solid orange;
   transition: .3s;
 }
 
