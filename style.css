@@ -7,7 +7,10 @@
 }
 
 body{
-  background-color: #222;
+  background-image: url('./images/teste.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
   font-family: 'Cera Round Pro DEMO', sans-serif;
   font-weight: 400;
   color: #FFF;
@@ -26,13 +29,17 @@ main{
   gap: 1rem;
 }
 
+main h1 {
+  font-size: .9rem;
+}
+
 main a{
   background-color: #111;
   width: 300px;
   border-radius: 10px 0 10px 0;
   text-decoration: none;
   color: #fff;
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,4 +53,12 @@ main a:hover{
   background-color: #FFF;
   color: #111;
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  main a{
+    width: 250px;
+    padding: 10px 0;
+    font-size: .8rem;
+  }
 }
